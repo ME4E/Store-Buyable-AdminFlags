@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"AdminFlag"
+	{
+		"en"	"AdminFlag"
+	}
+}

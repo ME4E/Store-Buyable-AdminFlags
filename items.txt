@@ -1,0 +1,39 @@
+"Store"
+{
+	
+	"Flags"
+	{
+		"Flag o"
+		{
+			"FlagAssign"	"o"
+			"price"			"2000"
+			"type"			"AdminFlag"
+		}
+		
+		"Flag a"
+		{
+			"FlagAssign"	"a"
+			"price"			"2000"
+			"type"			"AdminFlag"
+		}
+		
+		"Pack of flags"
+		{
+			"FlagAssign"	"abc"
+			"type"			"AdminFlag"
+			"Plans"
+			{
+				"1 day"
+				{
+					"price" "100"
+					"time"  "86400" //time in seconds
+				}
+				"2 day"
+				{
+					"price" "200"
+					"time"  "172800"
+				}
+			}
+		}
+	}
+}
